@@ -42,7 +42,6 @@
     "object-assign": "^4.1.1",
     "prop-types": "^15.6.0",
     "react": "^16.0.0",
-    "react-select": "^1.2.1",
     "weav": "^1.0.2"
   }
 }
