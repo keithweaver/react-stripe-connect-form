@@ -7,7 +7,8 @@
     "build": "babel lib -d build",
     "lint": "eslint lib/**; exit 0",
     "lint:watch": "esw -w lib/**",
-    "prepublish": "npm run build"
+    "prepublish": "npm run build",
+    "build:demo": "babel lib -d build && sudo npm link"
   },
   "repository": {
     "type": "git",
@@ -37,8 +38,11 @@
   },
   "dependencies": {
     "babel-preset-react": "^6.24.1",
+    "lodash": "^4.17.5",
     "object-assign": "^4.1.1",
     "prop-types": "^15.6.0",
-    "react": "^16.0.0"
+    "react": "^16.0.0",
+    "react-select": "^1.2.1",
+    "weav": "^1.0.2"
   }
 }
