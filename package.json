@@ -1,6 +1,6 @@
 {
   "name": "react-stripe-connect-form",
-  "version": "1.0.0",
+  "version": "0.0.1",
   "description": "A React component to render a form that collects Stripe Connect information.",
   "main": "build/index.js",
   "scripts": {
